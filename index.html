@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+            <a class="navbar-brand" href="login.html"><img src="assets/img/logo.png" alt="HMS" class="logo"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Acasă</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">Despre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#features">Caracteristici</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Preț</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                
+              </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="row main-hero-content">
+
+                <div class="col-md-6">
+                    <h1>Hospital Management System</h1>
+                    <p>Creștem afaceri și îi dezvoltăm pe cei ce le conduc</p>
+                    <div class="hero-buttons">
+                        <a href="login.html" class="btn btn-outline-primary btn-white">Înscriere</a>
+                        <a href="https://simplycommerce.ro/" class="btn btn-outline-primary btn-white">Încearcă acum</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image-box">
+                        <img src="assets/img/health-professional-team-concept-illustration.jpg" class="img-fluid img-top rounded" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row section-title justify-content-center">
+                <h2 class="section-title-heading">De ce HSM</h2>
+            </div>
+            <div class="row justify-content-center text-center mt-5">
+                <div class="col-md-6">
+                    <i class="fas fa-stopwatch fa-3x mb-2"></i>
+                    <h3>Management de prezenta</h3>
+                    <p>Managementul prezenței este modul în care țineți evidența resurselor umane si a salarizării fără erori! Ceea ce duce la forță de muncă mai fericită</p>
+                </div>
+                <div class="col-md-6">
+                    <i class="fas fa-user-tie fa-3x mb-2"></i>
+                    <h3>Managementul angajaților</h3>
+                    <p>Gestionează-ți ușor angajații cu un sistem robust și eficient. Un timp de angajare complet automatizat și urmărirea prezenței</p>
+                </div>
+                <div class="col-md-6">
+                    <i class="fas fa-plane-departure fa-3x mb-2"></i>
+                    <h3>Managementul liberelor</h3>
+                    <p>Managementul liberelor este procesul utilizat pentru a gestiona orice fel de cerere de timp liber suplimentar și pentru a urmări timpul în care angajații sunt departe de muncă.</p>
+                </div>
+                <div class="col-md-6">
+                    <i class="fas fa-hands-helping fa-3x mb-2"></i>
+                    <h3>Stat de plată</h3>
+                    <p>Software de salarizare ușor și de încredere. Sistemul nostru complet integrat, ușor de utilizat face din durerea de salarizare un lucru din trecut</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Feature Section -->
+    <section id="features">
+        <div class="container">
+            <div class="row section-title justify-content-center">
+                <h2 class="section-title-heading">Caracteristici detaliate</h2>
+        </div>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="feature-block">
+                        <i class="fas fa-user-md fa-3x mb-2"></i>
+                        <h3 class="text-center">Medici</h3>
+                        <p>Poate crea și administra programările, internarile pacienților, atribuirea paturilor, crea rețete pentru pacienți, poate administra rapoartele, poate accesa detaliile plăților, poate fixa programele de lucru, poate vizualiza ultimele noutăți și poate crea documente</p>
+                    </div>
+                
+                    <div class="feature-block mt-5">
+                        <i class="fas fa-user-injured fa-3x mb-2"></i>
+                        <h3 class="text-center">Pacienți</h3>
+                        <p>Poate rezerva o noua programare, vizualiza programările pacienților, detaliile doctorului atribuit, istoricul operațiunilor administratorului, poate vizualiza facturile și chitanțele, lista de documente, ultimele noutăți, poate crea documente</p>
+                    </div>
+
+                    <div class="feature-block mt-5">
+                        <i class="fas fa-user-nurse fa-3x mb-2"></i>
+                        <h3 class="text-center">Asistenți medicali</h3>
+                        <p>Poate vizualiza toți pacienții, poate administra și aloca paturile, poate vizualiza rapoartele, plățile și ultimele noutăți</p>
+                    </div>
+                
+                    <div class="feature-block mt-5">
+                        <i class="fas fa-clinic-medical fa-3x mb-2"></i>
+                        <h3 class="text-center">Recepționeri</h3>
+                        <p>Poate crea administra toate programările, poate vedea toate cererile pentru programări după pacienți, poate accesa toți pacienții, plățile acestora, poate administra serviciul de e-mail și celelalte servicii precum asigurări, ambulanță, colete, poate crea notite</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 device">
+                    <img src="assets/img/hospital-interior-flat-compositions_98292-96.jpg" class="img-fluid" alt="">
+                    <img src="assets/img/medical-equipment-isometric.jpg" class="img-fluid" alt="">
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="feature-block">
+                        <i class="fas fa-vial fa-3x mb-2"></i>
+                        <h3 class="text-center">Laboranți</h3>
+                        <p>Administrează banca de sânge, vizualizează plățile, administrează rapoartele și ultimele notificări</p>
+                    </div>
+                
+                    <div class="feature-block mt-5">
+                        <i class="fas fa-first-aid fa-3x mb-2"></i>
+                        <h3 class="text-center">Farmaciști</h3>
+                        <p>Administrează categoriile de medicamente, medicamentele în sine, facturile medicale, accesează plățile, vizualizează ultimele notificări</p>
+                    </div>
+
+                    <div class="feature-block mt-5">
+                        <i class="fas fa-calendar-check fa-3x mb-2"></i>
+                        <h3 class="text-center">Programări</h3>
+                        <p>Administratorul /doctorii/pacienții vor putea vedea lista programarilor. Administratorul poate vedea separat lista tuturor programarilor. De asemenea oferta ca suport baza de date pentru calendar pentru vizualizarea programarilor.
+                            Poți vedea o lista a programarilor sub forma de calendar</p>
+                    </div>
+                
+                    <div class="feature-block mt-5">
+                        <i class="fas fa-columns fa-3x mb-2"></i>
+                        <h3 class="text-center">Dashboard</h3>
+                        <p>Administratorul poate vedea valoarea totala a facturilor, chitanțelor, Plăților și poate efectua plăti în avans. Poate vedea și numărul total de pacienți, doctori și de paturi disponibile.
+                            De asemenea un administrator va putea accesa baza de date și sa modifice/adauge totul în sistem, va putea schimba moneda curenta a plăților și limba</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+
+    <section id="download">
+        <div class="container">
+            <div class="row download-title justify-content-center col-12">
+                <div class="section-title-heading col-12">
+                    <h2>HRM</h2>
+                    <p>Abilitarea afacerilor și a liderilor acestora</p>
+                    <p><a class="download-btns" href="https://simplycommerce.ro/">Simply-commerce platforma viitorului</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    
+    <section id="pricing">
+        <div class="container">
+            <div class="row section-title justify-content-center">
+                <h2 class="section-title-heading">Oferte de preț</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md pricing-table">
+                    <div class="table-header text-center">
+                        <h4>Antreprenor</h4>
+                        <p>$17</p>
+                    </div>
+
+                    <div class="table-content">
+                        <ul>
+                            <li>Firmă cu până la 5 angajați</li>
+                            <li>Acces nelimitat în funcție de CAEN</li>
+                            <li>Suport de integrare</li>
+                            <li>Asistență contabilă</li>
+                            <li>Acces gratuit la resource based networking</li>
+                            <li>Acces gratuit la cursurile de dezvoltare financiară</li>
+                        </ul>
+                    </div>
+
+                    <div class="table-footer text-center">
+                        <a href="#">Înscriere</a>
+                    </div>
+                </div>
+                
+                <div class="col-md pricing-table">
+                    <div class="table-header text-center">
+                        <h4>Business</h4>
+                        <p>$79</p>
+                    </div>
+
+                    <div class="table-content">
+                        <ul>
+                            <li>Companie cu până la 150 angajați</li>
+                            <li>Integrare companie în baza de date dedicată</li>
+                            <li>Suport tehnic non-stop la număr dedicat</li>
+                            <li>Consultanță juridică și audit financiar</li>
+                            <li>Certificat de siguranță cu garanție nelimitată</li>
+                            <li>Siguranța datelor și politicilor de protecție în vigoare</li>
+                            <li>Monitorizarea financiară permanentă</li>
+                        </ul>
+                    </div>
+
+                    <div class="table-footer text-center">
+                        <a href="#">Înscriere</a>
+                    </div>
+
+                </div>
+                
+                <div class="col-md pricing-table">
+                    <div class="table-header text-center">
+                        <h4>Corporate</h4>
+                        <p>$149</p>
+                    </div>
+
+                    <div class="table-content">
+                        <ul>
+                            <li>Companie cu peste 150 de angajați</li>
+                            <li>Server dedicat și serviciile conexe aferente</li>
+                            <li>DPO și serviciile de protecție a datelor gratuite</li>
+                            <li>Monitorizarea financiară</li>
+                            <li>Eficientizarea cheltuielilor cu ajutorul A.A.I</li>
+                            <li>Reducerea riscurilor și creșterea încasărilor</li>
+                            <li>Soluții de recompensare multiple</li>
+                        </ul>
+                    </div>
+
+                    <div class="table-footer text-center">
+                        <a href="#">Înscriere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    
+    <section id="contact">
+        <div class="container">
+            <div class="row section-title justify-content-center">
+                <h2 class="section-title-heading">get in touch</h2>
+            </div>
+
+            <div class="row mt-5">
+
+                <div class="col-md-8">
+
+                    <div class="contact-form">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-group mt-4">
+                                <textarea class="form-control" rows="1" placeholder="Message Subject"></textarea>
+                            </div>
+                            <div class="form-group mt-4">
+                                <textarea class="form-control" rows="10" placeholder="Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-contact mt-4">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="address">
+                        <h3>M&M Holding IAȘI, România</h3>
+                        <p>Suntem un grup de companii în domeniul tehnologiei dar cu profile diferite din această sferă</p>
+                    </div>
+                    <div class="contact-details">
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fas- fa-envelope-open-text"></i></span>dpo@intreprindiq.ro</li>
+                            <li><span class="fa-li"><i class="fas fa-headphones"></i></span>+40751646306</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+            <div class="container">
+                <div class="row d-flex flex-column align-items-center">
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/acidstudiosdesign/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/dsoftiasi/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/intreprindiq/"><i class="fab fa-facebook"></i></a>
+                    </div>
+                    <div class="copyright">
+                       <p>© Copyright 2020 Intreprind IQ& Co..Toate drepturile rezervate</p>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
